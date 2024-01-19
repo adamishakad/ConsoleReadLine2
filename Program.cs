@@ -1,4 +1,5 @@
-﻿namespace ConsoleReadLine2
+﻿using System;
+namespace ConsoleReadLine2
 {
     internal class Program
     {
@@ -8,7 +9,6 @@
 
             // Reading user input
             string userName = Console.ReadLine();
-
 
             // Responding to user input
             Console.WriteLine("Hello, " + userName + "!");
